@@ -95,7 +95,7 @@ final legendaryImages = [
       movieRating: "7.7"),
   MovieModel(
       imageAsset: "images/for_your_image_1.jpeg",
-      movieName: "Lara Ati",
+      movieName: "Lara Ati Ini",
       year: "2022",
       movieRating: "7.2"),
 ];

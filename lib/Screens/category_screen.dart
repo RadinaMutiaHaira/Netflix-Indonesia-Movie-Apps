@@ -10,11 +10,10 @@ class CategoryScreen extends StatefulWidget {
 class _CategoryScreenState extends State<CategoryScreen> {
 
   static List<MovieModel> genresItemsList = List.of(genresList);
-  List<MovieModel> legendaryItemsList = List.from(legendaryImages);
 
   void updateList(String value) {
     setState(() {
-      legendaryItemsList = legendaryImages.where((element) => 
+      genresItemsList = genresList.where((element) => 
         element.movieName!.toLowerCase().contains(value.toLowerCase())).toList();
     });
   }
